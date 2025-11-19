@@ -40,5 +40,31 @@ let myFunction = function (){
 
 // console.log(myFunction);
 // console.log(myFunction());
-console.log(typeof myFunction);
+// console.log(typeof myFunction);
 // console.log(typeof myFunction());
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++\\
+
+// Memory: Types of memory in js: Stack and Heap.
+
+// Stack (Primitive)
+
+let myName = "Huzaifa";
+let anotherName = myName;
+anotherName = "Muhammad";
+
+// console.log(myName);
+// console.log(anotherName);
+
+// Heap (Non-primitive)
+
+let userOne = {
+    email:"huzaifa@cwh.com",
+    password:"cdsg"
+}
+let userTwo = userOne;
+userTwo.email = "muhammmadhuzaifa200005@gmail.com"
+
+// console.log(userOne.email);
+// console.log(userTwo.email);
+
