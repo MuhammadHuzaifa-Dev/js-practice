@@ -40,3 +40,14 @@ const user = [
 // console.log(Object.entries(fbUser));
 
 // console.log(fbUser.hasOwnProperty("isLoggedIn"));
+
+// +++++++++++++++ Object de-structuring +++++++++++++++ 
+
+const udemyCourse = {
+    courseName:"Complete Web dev Course",
+    prics:2999,
+    courseInstructor:"Muhammad Huzaifa"
+}
+
+const {courseInstructor: instructor} = udemyCourse
+console.log(instructor);
